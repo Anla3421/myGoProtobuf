@@ -2,7 +2,7 @@
 syntax = "proto3";  // 定義要使用的 protocol buffer 版本
 
 package protobuf;  // for name space
-option go_package = "./proto";  // generated code 的 full Go import path
+option go_package = "./protobuf";  // generated code 的 full Go import path
 
 // 取得資訊
 service GetInfo {
